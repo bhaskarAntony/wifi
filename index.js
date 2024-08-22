@@ -1,3 +1,4 @@
+
 const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
@@ -27,3 +28,4 @@ app.use('/api', require('./routes/wifi'))
 app.listen(PORT, ()=>{
     console.log('backend is running port 8080');
 })
+
